@@ -1,1 +1,26 @@
-body{}
+body{
+    width:100%;
+    height:100vh;
+    margin:0;
+    padding:0;
+    display:flex;
+    flex-direction:column;
+    color:white;
+}
+
+.header{
+    box-sizing:border-box;
+    height:30px;
+    background-color:#181818;
+    padding:5px 5px 5px 5px;
+}
+
+.container{
+    height:100%;
+    background-color: #1F1F1F;
+}
+
+.footer{
+    height:30px;
+    background-color:#181818;
+}
